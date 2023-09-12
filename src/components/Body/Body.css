@@ -1,0 +1,42 @@
+
+.body-container {
+    background-image: linear-gradient(to right, white,skyblue);
+    min-height :100vh;
+    background-size: cover;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-head {
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid aqua;
+    margin-left: 400px;
+    width: 25%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-head1 {
+    font-size: 18px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 5px;
+    margin-left: 8px;
+    margin: 5px;
+}
+
+.body-head2 {
+    font-size: 18px;
+    border-radius: 60px;
+    margin-top: 6px;
+    color: black;
+    margin-left: 10px;
+    border: 0;
+    background-color: white;
+}
